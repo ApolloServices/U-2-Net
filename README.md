@@ -1,3 +1,44 @@
+This repository is forked from original [U^2-Net repository](https://github.com/NathanUA/U-2-Net ) and include some bug fix.
+
+# Changes
+- Support CPU [(PR #133)](https://github.com/NathanUA/U-2-Net/pull/133)
+- Support Windows environment [(PR #134)](https://github.com/NathanUA/U-2-Net/pull/134)
+- Support requirement.txt [(PR #132)](https://github.com/NathanUA/U-2-Net/pull/132)
+- Support downloading model weights script [(PR #136)](https://github.com/NathanUA/U-2-Net/pull/136)
+
+#  Easy setup
+- Clone this repository and move directory
+- Create virtual python environment using conda
+ ```
+ conda create -n u2net python=3.6
+ activate u2net
+ ```
+- Install dependencies
+ ```
+ pip install -r requirements.txt
+ conda install pytorch torchvision cpuonly -c pytorch
+ ```
+ This example is for window + CPU. If you want to use another environment, see [official document](https://pytorch.org/get-started/locally/).
+- Download model weights from google drive
+ ```
+ python setup_model_weights.py
+ ```
+
+# Run
+```
+python u2net_test.py
+```
+or
+```
+python u2net_portrait_demo.py
+```
+or
+```
+python u2net_portrait_test.py
+```
+
+---
+
 # U^2-Net (U square net)
 
 The code for our paper **U^2-Net (U square net)** published in Pattern Recognition 2020:
