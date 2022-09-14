@@ -1,11 +1,5 @@
 This repository is forked from original [U^2-Net repository](https://github.com/NathanUA/U-2-Net ) and include some bug fix.
 
-# Changes
-- Support CPU [(PR #133)](https://github.com/NathanUA/U-2-Net/pull/133)
-- Support Windows environment [(PR #134)](https://github.com/NathanUA/U-2-Net/pull/134)
-- Support requirement.txt [(PR #132)](https://github.com/NathanUA/U-2-Net/pull/132)
-- Support downloading model weights script [(PR #136)](https://github.com/NathanUA/U-2-Net/pull/136)
-
 #  Easy setup
 - Clone this repository and move directory
 - Create virtual python environment using conda
@@ -44,14 +38,6 @@ python u2net_portrait_test.py
 The code for our paper **U^2-Net (U square net)** published in Pattern Recognition 2020:
 ## [U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://arxiv.org/pdf/2005.09007.pdf)
 
-[Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), <br/>
-[Zichen Zhang](https://webdocs.cs.ualberta.ca/~zichen2/), <br/>
-[Chenyang Huang](https://chenyangh.com/), <br/>
-[Masood Dehghan](https://sites.google.com/view/masooddehghan), <br/>
-[Osmar R. Zaiane](http://webdocs.cs.ualberta.ca/~zaiane/) and <br/>
-[Martin Jagersand](https://webdocs.cs.ualberta.ca/~jag/).
-
-__Contact__: xuebin[at]ualberta[dot]ca
 
 ## Updates !!!
 
@@ -93,9 +79,6 @@ git clone https://github.com/NathanUA/U-2-Net.git
 ## U^2-Net Results (176.3 MB)
 
 ![U^2-Net Results](figures/u2netqual.png)
-
-
-## Our previous work: [BASNet (CVPR 2019)](https://github.com/NathanUA/BASNet)
 
 ## Required libraries
 
